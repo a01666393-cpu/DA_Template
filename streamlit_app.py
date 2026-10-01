@@ -52,7 +52,10 @@ about_pages = [about, cr]
 
 #st.title("Data Analytics ")
 st.logo("images/horizontal_blue.png", icon_image="images/icon_blue.png")
-
+st.caption(
+    "Aplicación recuperada y corregida | "
+    "Nombre: Itzel Mejia Moreno | Matrícula: A01666393"
+)
 page_dict = {}
 
 page_dict["Introduction"] =  intro_pages
